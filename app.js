@@ -1,10 +1,10 @@
 var person = {
     name: 'Anthony',
     age: 34,
-    hobbies: ['Guitar', 'Games', 'Woodworking'],
+    hobbies: ['Guitar', 'Games', 'Woodworking', 'learning'],
     role: [2, 'author'] // this is a tuble that only supports 2 elemets. First element is always a number and second a string.
 };
-person.role.push('admin');
+person.role.push('admin'); // push in an exception to add to a tuble. Careful using push when adding to a tuple.
 console.log(person.role);
 var favoriteActivities;
 // use the 'any' type if want to use any type. Rarely used.

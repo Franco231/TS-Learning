@@ -1,11 +1,16 @@
-const person = {
+const person:{
+    name: string,
+    age: number,
+    hobbies: string[],
+    role: [number,string]
+} = {
     name: 'Anthony',
     age: 34,
-    hobbies: ['Guitar','Games','Woodworking'],
+    hobbies: ['Guitar','Games','Woodworking','learning'],
     role: [2,'author'] // this is a tuble that only supports 2 elemets. First element is always a number and second a string.
 };
 
-person.role.push('admin');
+person.role.push('admin'); // push in an exception to add to a tuble. Careful using push when adding to a tuple.
 console.log(person.role);
 
 let favoriteActivities: string[]; 
@@ -18,12 +23,6 @@ for (const hobbies of person.hobbies) {
     console.log (hobbies.toLowerCase()); 
     // console.log(hobbies.map()); WILL NOT WORK because it will only work with strings. Map will grab all types.
 }
-
-
-
-
-
-
 
 
 
