@@ -23,8 +23,12 @@ for (const hobbies of person.hobbies) {
     console.log (hobbies.toLowerCase()); 
     // console.log(hobbies.map()); WILL NOT WORK because it will only work with strings. Map will grab all types.
 }
-//test
 
+if (person.role[1] === 'authorrrr') {
+  console.log ('You are the author');
+} else {
+  console.log ('Not the Author');
+}
 
 
 /*
