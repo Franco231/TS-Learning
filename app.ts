@@ -23,6 +23,7 @@ for (const hobbies of person.hobbies) {
     console.log (hobbies.toLowerCase()); 
     // console.log(hobbies.map()); WILL NOT WORK because it will only work with strings. Map will grab all types.
 }
+//test
 
 
 
